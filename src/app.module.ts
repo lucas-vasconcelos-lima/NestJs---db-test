@@ -25,6 +25,7 @@ import { ProdutoModule } from './produto/modules/produto.module';
 
     TypeOrmModule.forRoot({
 
+      // teste de alteração 
       type: 'postgres',
       //(variavel de ambiente) falando que o processo que esta rodando ira buscar a variavel que contem o banco de dados
       url: process.env.DATABASE_URL,  
